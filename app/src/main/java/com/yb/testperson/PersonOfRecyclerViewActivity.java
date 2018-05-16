@@ -39,7 +39,7 @@ public class PersonOfRecyclerViewActivity extends AppCompatActivity implements R
         String url = "http://livedemo.yunbaozhibo.com/api/public/?service=User.getBaseInfo&uid=11711&token=86d24b8506c569703842e93be85c7cce";
         reqData(url);
     }
-    //网络请求
+
     private void reqData(String url){
         OkGo.<String>get(url).execute(new StringCallback() {
             @Override
