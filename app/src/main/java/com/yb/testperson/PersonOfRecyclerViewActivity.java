@@ -27,6 +27,7 @@ import static android.R.id.list;
 public class PersonOfRecyclerViewActivity extends AppCompatActivity implements RecyclerViewAdapter.OnItemClickListener{
     private RecyclerView mRecyclerView;
     private BeanFirst mBeanFirst;
+    private int i;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
